@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">MyPortfolio</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="section-link section-home">Home</a></li>
+                    <li><a href="#about" class="section-link section-about">About</a></li>
+                    <li><a href="#projects" class="section-link section-projects">Projects</a></li>
+                    <li><a href="#skills" class="section-link section-skills">Skills</a></li>
+                    <li><a href="#contact" class="section-link section-contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Crafting Beautiful and Functional Websites</h1>
+            <p>Hi, I'm NALVINAI ARASU.N, a passionate web developer based in Chennai .</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <img src="images/EMP 1.jpg" alt="Profile Picture" class="profile-picture">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Hello, I'm NALVINAI ARASU.N, a dedicated web developer driven by a passion for crafting stunning and user-friendly websites. With a robust background in a diverse range of technologies, I thrive on tackling intricate challenges with creative and innovative solutions.</p>
+                    <p>Beyond coding, I find joy in exploring emerging technologies, actively contributing to open-source initiatives, 
+                        and staying abreast of industry trends. This pursuit not only fuels my professional growth but also enriches my approach to delivering impactful digital experiences. My journey in web development has equipped me with expertise in,</p>
+                    <div class="skills-list">
+                        <button class="skill html5">HTML5</button>
+                        <button class="skill css3">CSS3</button>
+                        <button class="skill javascript">JavaScript</button>
+                        <button class="skill react">React</button>
+                        <button class="skill bootstrap">Bootstrap</button>
+                        <button class="skill responsive-design">Responsive Design</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <img src="images/eci.jpg" alt="Project 1">
+                    <h3>                                                   ONLINE VOTING SYSTEM</h3>
+                    <p>An Online Voting System using Aadhaar and Voter ID with OTP authentication ensures secure and verified voting. Voters authenticate their identity via Aadhaar and Voter ID, receive a One-Time Password (OTP) for additional security, and cast their votes digitally, ensuring a transparent and efficient election process.</p>
+                </div>
+                <div class="project">
+                    <img src="images/locatio 1.jpg" alt="Project 2">
+                    <h3>LOCATION BASED ALARM SYSTEM</h3>
+                    <p>A location-based alarm is a feature in some apps that allows users to set reminders or alarms based on their physical location. Instead of setting a specific time for the alarm to go off, users specify a geographical area, and when they enter or leave that area, the alarm triggers. It's handy for tasks like remembering to pick up groceries when passing by a store or reminding oneself of a task upon arriving or departing from a particular location.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <p>Proficient in HTML5.</p>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <p>Proficient in CSS3 and preprocessors.</p>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <p>Experienced in modern JavaScript (ES6+).</p>
+                </div>
+                <div class="skill">
+                    <h3>React</h3>
+                    <p>Experienced in building applications with React.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 NALVINAI ARASU.N. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
